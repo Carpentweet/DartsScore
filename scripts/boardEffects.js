@@ -6,3 +6,8 @@ $("#dartboard #areas g").children().hover(
 		$(this).css("opacity","1");
 	}
 )
+
+$(".textfield").click(
+	function() {
+		$(this).val("");
+})
