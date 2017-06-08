@@ -2,6 +2,7 @@
     <head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
         <script src="scripts/jquery.js"></script>
+        <script src="scripts/game.js"></script>
     </head>
     <body>
 		<div class="pageheader">
@@ -112,8 +113,8 @@
 				<div>
 					<h4>Players</h4>
 				 	<form>
-						 <input id="boplayers1" type="radio" name="noplayers">1 player
-						 <input id="boplayers2" type="radio" name="noplayers">2 players
+						 <input id="noplayers1" type="radio" name="noplayers">1 player
+						 <input id="noplayers2" type="radio" name="noplayers">2 players
 				 	</form>
 					 <div>
 						 <input class="textfield" id="nameone" type="text" name="playeronename" value="Player1">
@@ -125,7 +126,7 @@
 					 </div>
 					 <div>
 						 <h4>Starting score</h4>
-						 <input class="textfield" type="text" name="startingscore" value="501">
+						 <input id="optionScore" class="textfield" type="text" name="startingscore" value="501">
 					 </div>
 					 <div>
 						 <input id="okbtn" type="button" value="ok">
@@ -138,4 +139,5 @@
 		</div>
     </body>
 	<script src="scripts/boardEffects.js"></script>
+	<script src="scripts/playGame.js"></script>
 </html>
